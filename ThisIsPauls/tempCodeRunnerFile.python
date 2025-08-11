@@ -1,0 +1,11 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import linear_model as lm
+df= pd.read_csv('canada_per_capita_income.csv')
+matplotlib = plt.get_backend()
+plt.scatter(df.year, df.per_capita_income, color='blue', marker='x')
+plt.xlabel('Year')
+plt.ylabel('Per Capita Income (USD)')
+plt.title('Per Capita Income in Canada Over Years')
+
