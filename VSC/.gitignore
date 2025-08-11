@@ -1,0 +1,9 @@
+# Ignore nested Git repositories
+House_Predict_sys/
+ML/
+
+# Ignore the virtual environment
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
